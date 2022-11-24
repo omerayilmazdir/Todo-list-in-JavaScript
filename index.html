@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Todos List in JavaScript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <body style="background: linear-gradient(1000deg, #4AB1FF, #2D5CFE);">
+    <div class="container" style="width: 100%; padding: 150px;">
+        <h1 style="text-align:center;">Todos List</h1>
+        <div class="card" style="width: 100%;; margin : 0 auto;">
+            <div class="card-body">
+                <h4>Add Todo</h4>
+                <form id = "todo-form" name="form">
+                <div class="form-floating mb-3">
+                    <input class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput"><i class="fa-solid fa-plus"></i> New todos</label>
+                  </div>
+                  <button type="submit" class="btn btn-success" id="add">Add Todo</button>
+                </form>
+                  <hr/>
+           </div>
+           <div class="card-body">
+            <h4>Search Todo</h4>
+            <div class="form-floating mb-3">
+              <input class="form-control" id="floatingInput" placeholder="name@example.com"> 
+              <label for="floatingInput"> <i class="fa-solid fa-magnifying-glass"></i> Search todos</i></label>
+            </div>
+            
+            <h4>Todo List</h4>
+            <hr/>
+                <ul class="list-group">
+                 
+                </ul>
+                <br>
+                <button type="button" class="btn btn-danger" id="clear-all">Delete All Todos</button>
+           </div> 
+          </div>
+          </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/855382d270.js" crossorigin="anonymous"></script>
+</body>
+</html>
